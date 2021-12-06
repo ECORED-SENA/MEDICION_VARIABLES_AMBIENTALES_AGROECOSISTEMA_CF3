@@ -1,0 +1,57 @@
+.banner-principal .tarjeta
+  background-position: bottom
+  @media (max-width:$bp-max-lg)
+    background-image: url(../assets/curso/bg-2.png) !important
+
+// TARJETAS HOVER//
+.tarjeta-hover
+  position: relative
+  overflow: hidden
+  &__img
+    width: 100%
+    height: 100%
+    position: absolute
+    bottom: -100%
+    left: 0
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    transition: bottom 0.3s ease-in-out
+    
+  &:hover
+    .tarjeta-hover__img
+      bottom: 0
+// TARJETAS HOVER//
+
+.vineta:before
+  content: url(../assets/curso/vineta.svg)
+  display: block
+  width: 19px
+  height: 19px
+.img-infografica.color-acento-botones , .img-infografica__item__dot:before , .img-infografica__item__dot:after
+    background-color: white !important
+// BOTONES CARROUSEL //
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover, 
+  background-color: transparent
+.carousel-control-prev-icon
+  background-image: url(../assets/curso/izquierda.svg) !important
+.carousel-control-next-icon
+  background-image: url(../assets/curso/derecha.svg) !important
+// BOTONES CARROUSEL //
+
+.vineta1:before 
+  content: url(../assets/curso/vineta1.svg)
+  display: block
+  width: 49px
+  height: 49px
+.vineta2:before 
+  content: url(../assets/curso/vineta2.svg)
+  display: block
+  width: 49px
+  height: 49px
+.vineta3:before 
+  content: url(../assets/curso/vineta3.svg)
+  display: block
+  width: 49px
+  height: 49px
