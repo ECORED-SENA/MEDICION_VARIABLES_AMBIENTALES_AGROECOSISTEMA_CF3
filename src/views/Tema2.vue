@@ -102,7 +102,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-7
                     h4 Conclusiones
-                    p La presentación de los resultados por sí sola, no aporta mayor información a la medición de las variables ambientales. Es necesario analizarla para sacar conclusiones y tomar decisiones en cuanta al manejo del agroecosistema, en especial, a las prácticas con un impacto directo sobre el suelo, el agua y la biodiversidad. Además, cada conclusión se debe contrastar y soportar con bibliografía técnica y científica, con el fin de dar validez al estudio.
+                    p La presentación de los resultados por sí sola, no aporta mayor información a la medición de las variables ambientales. Es necesario analizarla para sacar conclusiones y tomar decisiones en cuanta al manejo del agroecosistema, en especial, a las prácticas con un impacto directo sobre el suelo, el agua y la biodiversidad. Además, cada conclusión se <b>debe contrastar y soportar con bibliografía</b> técnica y científica, con el fin de dar validez al estudio.
                   .col-lg-5: img(src='@/assets/curso/21.jpg', alt='Texto que describa la imagen')
         .carousel-item
           .row.mb-5.justify-content-center

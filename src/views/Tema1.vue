@@ -11,7 +11,7 @@
       .col-lg-4(data-aos='fade-right')
         img(src='@/assets/curso/0.jpg', alt='Texto que describa la imagen' style='width: 332px;')
       .col-lg-8(data-aos='fade-left')
-        p Diligenciar los registros en la medición de variables ambientales de un agroecosistema, es un proceso de gran importancia para recopilar los datos y la información de las diferentes variables a medir. Por esta razón, la elaboración de los formatos o de las planillas, debe corresponder con lo definido en el plan de muestreo, en términos de frecuencia de la medición, lugares, equipos de medición, tipo de muestras, unidades de medición, entre otros. Los formatos o planillas y los registros son dos elementos diferentes. A continuación, se podrán ver sus explicaciones: 
+        p <b>Diligenciar los registros</b> en la medición de variables ambientales de un agroecosistema, es un proceso de gran importancia para recopilar los datos y la información de las diferentes variables a medir. Por esta razón, la elaboración de los <b>formatos</b> o de las <b>lanillas</b>, <b>debe corresponder con lo definido en el plan de muestreo</b>, en términos de frecuencia de la medición, lugares, equipos de medición, tipo de muestras, unidades de medición, entre otros. Los formatos o planillas y los registros son dos elementos diferentes. A continuación, se podrán ver sus explicaciones: 
     .row.mb-5.justify-content-center.g-5
       .col-lg-4(data-aos='fade-right')
         .tarjeta-hover.tarjeta.bg--1.p-4.hover-flip.hover.hover-bg--3(@mouseover="mostrarIndicador= false"  style='height: 443px ; width: 335px ').d-flex.align-items-center
@@ -171,7 +171,7 @@
               img(src='@/assets/curso/12.svg', alt='Texto que describa la imagen')
     p.mb-5 Además, es importante conocer cómo se aplican los registros para conocer las variables ambientales que se van a estudiar, con el fin de fortalecer la información que se desea recopilar en campo:
     .c--1
-      h3.c--1 Aplicabilidad de los Registros.
+      h3.c--1 Aplicabilidad de los Registros
       p.col-4.c--1 Los registros son muy útiles para evaluar y monitorear la situación ambiental del agroecosistema, entre otras aplicaciones:
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
