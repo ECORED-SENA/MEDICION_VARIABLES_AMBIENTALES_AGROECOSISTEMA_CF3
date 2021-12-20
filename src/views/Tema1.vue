@@ -32,7 +32,7 @@
     p.mb-5 A continuación, se conocerán los diferentes tipos de registros que existen para la medición de variables ambientales que pueden ser aplicadas para documentar resultados del monitoreo según el procedimiento establecido.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/k9XUkgCGnGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 Teniendo en cuenta los diferenteks tipos de registros, también se puede clasificar según la variable que se está midiendo de la siguiente manera:
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Registros de calidad del Suelo" :icono="require('@/assets/curso/5.svg')")
